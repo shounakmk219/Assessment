@@ -47,11 +47,14 @@ public class Dish implements Comparable<Dish>{
 	public String toString() {
 		return "\nDish Id: "+id+", name: "+name+", Price: "+price+",  Calories: "+calories;
 	}
-	/*
 	@Override
 	public int hashCode() {
 		// TODO Auto-generated method stub
 		return super.hashCode();
 	}
-	*/
+	@Override
+	public boolean equals(Object obj) {
+		// TODO Auto-generated method stub
+		return super.equals(obj);
+	}
 }
